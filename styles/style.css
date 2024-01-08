@@ -9,25 +9,28 @@
 }
 body{
     background-color: white;
+  font-family: 'Inter', sans-serif; 
 }
 .container{
 
 
 }
 .banner{
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Banner\ Image.png);
     max-width: 1320px;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 .banner-content h2{
     color: #fff;
 
     font-size: 32px;
     font-weight: bold;
-    font-family: merriweathers;
+
 text-align: center;
 
 }
@@ -35,7 +38,7 @@ text-align: center;
     color: #FFF;
 text-align: center;
 font-size: 72px;
-font-family: Merriweather;
+
 width: 632px;
 height: 192px;
 }
@@ -50,7 +53,7 @@ height: 192px;
 }
 .all-category-section h1{
     color: #F00;
-    font-family: 'Inter', sans-serif;
+
 font-size: 88px;
 font-weight: 700;
 margin-bottom: 20px;
@@ -88,7 +91,7 @@ margin-bottom: 20px;
 }
 .banner_section2_content h1{
     color: white;
-    font-family: merriweather;
+
     font-size: 64px;
     font-weight: 900;
     letter-spacing: 7px;
@@ -104,8 +107,8 @@ margin-bottom: 20px;
 .banner_section2_content p{
     color: rgba(255, 255, 255, 0.80);
     font-size: 12px;
-    font-family: 'Inter', sans-serif;
-    /* font-weight: 400; */
+
+
     line-height: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -119,7 +122,7 @@ margin-bottom: 20px;
 .banner_section2_content a{
     color: #fff;
 text-decoration: none;
-font-family: 'Inter', sans-serif;
+
 font-size: 18px;
 font-weight: 700;
 text-transform: uppercase;
@@ -145,7 +148,7 @@ text-transform: uppercase;
 .location_section  h1{
     text-transform: uppercase;
     font-size: 32px;
-    font-family: 'Inter', sans-serif;
+
     color: #070211;
 }
 .location_section h1 >span{
@@ -168,4 +171,76 @@ padding: 16px 32px;
 border-radius: 5px;
 margin-top: 20px;
 
+}
+/* Best Offer Section -=========================================*/
+.offer_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    width: 1320px;
+    height: 482px;
+}
+.offer_left{
+    width: 393px;
+    height: 244px;
+    
+}
+.offer_left h2{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+
+    margin-bottom: 10px;
+}
+.offer_left h1{
+    color: #070211;
+font-size: 40px;
+font-weight: 900;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.offer_left p{
+   color: rgba(7, 2, 17, 0.60);
+   font-size: 20px;
+   line-height: 32px;
+
+
+}
+.offer-middle_img{
+    border-radius: 430px;
+    border: 15px solid #F00;
+    padding:20px  ;
+
+margin:0 60px
+
+
+}
+.offer-middle_img >img{
+
+    width: 320px;
+    height: 340px;
+  
+    
+}
+/* .offer_right {
+    padding-left: 70px;
+
+
+} */
+.offer_right h1{
+    color: #F00;
+    font-size: 44px;
+
+
+}
+.offer_right p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+.offer_right >img{
+    width: 140px;
+    height: 140px;
+ 
 }
