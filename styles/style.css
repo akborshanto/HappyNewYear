@@ -78,12 +78,13 @@ margin-bottom: 20px;
 }
 /* banner-section2 */
 .banner_section2{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Vectorrr.png);
+    background-image: linear-gradient(90deg,rgb(0 0 0 / 77%), rgba(0, 0, 0, 0.4)), url(../images/Vectorrr.png);
     display: flex;
     align-items: center;
     justify-content: space-around;
     max-width: 1320px;
     height: 600px;
+    margin-top: 60px;
 }
 .banner_section2_content h1{
     color: white;
@@ -93,19 +94,22 @@ margin-bottom: 20px;
     letter-spacing: 7px;
     text-align: center;
     margin-bottom: 20px;
+    text-align: justify;
 }
 .banner_section2_content{
     width: 624px;
     padding: 0 40px;
+
 }
 .banner_section2_content p{
     color: rgba(255, 255, 255, 0.80);
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Inter', sans-serif;
     /* font-weight: 400; */
-    line-height: 25px;
+    line-height: 20px;
     text-align: center;
     margin-bottom: 20px;
+    text-align: justify;
     
 }
 .banner_section2_img >img{
@@ -119,5 +123,49 @@ font-family: 'Inter', sans-serif;
 font-size: 18px;
 font-weight: 700;
 text-transform: uppercase;
+
+}
+/* location span............. */
+.location_section {
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+/* .location-text{
+    width: 549px;
+    height: 168px;
+} */
+
+.location_section  h1{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+}
+.location_section h1 >span{
+    color: #f00;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+display: inline-block;
+margin-bottom: 20px;
+
+}
+.location_btn{
+background-color: #F00;
+color: white;
+border:none;
+font-size: 20px;
+text-align: center;
+font-weight: 700;
+padding: 16px 32px;
+border-radius: 5px;
+margin-top: 20px;
 
 }
