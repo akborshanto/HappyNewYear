@@ -1,0 +1,123 @@
+/* font family */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/* global-css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.container{
+
+
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Banner\ Image.png);
+    max-width: 1320px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content h2{
+    color: #fff;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-family: merriweathers;
+text-align: center;
+
+}
+.banner-content h1{
+    color: #FFF;
+text-align: center;
+font-size: 72px;
+font-family: Merriweather;
+width: 632px;
+height: 192px;
+}
+/* all-category-section */
+
+.all-category-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:80px;
+}
+.all-category-section h1{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 20px;
+
+
+}
+.all-category-section h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.all-category-section h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.all-category-section >figure> img{
+
+    width: 802px;
+    lighting-color: 50%;
+    height: 500px;
+}
+/* banner-section2 */
+.banner_section2{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Vectorrr.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1320px;
+    height: 600px;
+}
+.banner_section2_content h1{
+    color: white;
+    font-family: merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banner_section2_content{
+    width: 624px;
+    padding: 0 40px;
+}
+.banner_section2_content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    /* font-weight: 400; */
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.banner_section2_img >img{
+    width: 319px;
+    height: 344px;
+}
+.banner_section2_content a{
+    color: #fff;
+text-decoration: none;
+font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+
+}
