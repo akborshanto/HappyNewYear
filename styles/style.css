@@ -244,3 +244,87 @@ margin:0 60px
     height: 140px;
  
 }
+/* Discount-section=----------------------------------------------------------------- */
+.discount-section{
+    width: 1320px;
+    height: 946px;
+    margin-top: 60px;
+    background-color: rgba(255, 0, 0, 0.322);
+
+
+}
+.discount-text{
+  
+text-align: center;
+
+
+}
+.discount-text h4{
+    font-size: 24px;
+    color: #070211;
+}
+.discount-text >h1{
+font-size: 72px;
+color: #070211;
+margin-bottom: 20px;
+}
+.discount-text >h1>span{
+    color: red;
+    font-size: 72px;
+    font-weight: 900;
+    
+    
+    }
+.discount-text >p{
+    width: 1089px;
+    height: 96px;
+margin: 0 auto;
+color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+}
+
+.discount_img_right{
+    background: url("../images/Rectangle 1.png")
+}
+
+/* PORTFOLIO_SECTON--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.porfolio_section{
+    margin-top: 60px;
+    width: 1320px;
+    height: 1163px;
+}
+.portfolio-text >h4 {
+color: #F00;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 10px;
+    }
+.discount-text >h1{
+color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+  .portfolio-text p{
+      margin-top: 10px;
+    color: rgba(7, 2, 17, 0.60);
+    }
+    .portfolio-column{
+        display: flex;
+        gap: 24px;
+   margin-top: 20px;
+    }
+    .portfolio-column >img{
+        width: 424px;
+height: 450px;
+
+    }
+    .portfolio-column>img:hover{
+
+opacity: 0.3;
+border-radius: 200px;
+background-color: rgba(255, 0, 0, 0.199);
+transition: 1s;
+    }
+    /* contact section.............................. */
